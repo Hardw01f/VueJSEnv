@@ -1,5 +1,8 @@
 # VueJSEnv
-the Dockerfile for develop of Vue.js
+The Dockerfile for develop of Vue.js
+
+
+this Dockerfile is used another repository for build VueEnv
 
 ### Versions
 
@@ -18,8 +21,7 @@ $ docker run -p 9000:8080 -it CONTAINERNAME:TAG /bin/zsh
 
 ```
 
-
-## Create New Progect
+## Create New Progect(Vue Installed Test)
 
 **Into container**
 
@@ -31,10 +33,7 @@ $ npm run serve
 
 ```
 
-
-## Access Vue.js
-
-http://localhost:9000
+access "http://localhost:9000"
 
 
 
